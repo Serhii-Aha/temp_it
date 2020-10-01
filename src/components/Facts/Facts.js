@@ -15,7 +15,7 @@ const Facts = ({title, slides}) => {
 	</SwiperSlide>);
 	
 	return (
-		<section className="facts container">
+		<section id="facts" className="facts container">
 			<h2 className="facts-title">{title}</h2>
 			<div className="swiper-button-prev"/>
 			<Swiper
