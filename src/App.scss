@@ -3,7 +3,9 @@
 *{
   font-family: 'Roboto', sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #737373;
 }
